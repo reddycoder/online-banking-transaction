@@ -1,0 +1,50 @@
+<HTML>
+<HEAD>
+  <title>enter details</title>
+</HEAD>
+    <BODY bgcolor="#fF000CC">
+ <center>
+  
+    <TABLE style="background-color: #FFEECC;" WIDTH="50%" >
+         <TR>
+		 <TH width="50%">NAME</TH>
+		 <TD width="50%"><INPUT TYPE="text" NAME="transcation_details"></TD>
+	  </TR>
+          
+	   <TR>
+	         <TH width="50%">ACCOUNT NUMBER</TH>
+		 <TD width="50%"><INPUT TYPE="number" NAME="acc_no"></TD>
+	  </TR>
+
+	  <TR>
+	         <TH width="50%">AMOUNT</TH>
+		 <TD width="50%"><INPUT TYPE="number" NAME="amt_transfer"></TD>
+	  </TR>
+	  	 
+
+ </center>
+ <br>
+ <br>
+
+<center>
+	<form>
+	<TR><TH width="50%">CLICK ON SUBMIT</TH><BR>
+	<TD>
+        <input type="button" id="idname" value = "submit " onclick="goToInfo()"/><br>
+	</TD>
+	</TR>
+	</form>
+</center>
+	<script type="text/javascript">
+        function goToInfo(){
+	window.location = 'http://localhost:8080/assign/transfer.jsp';
+
+        }
+
+
+    	</script>
+        
+</TABLE>
+
+</BODY>
+</HTML>
